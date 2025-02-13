@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f8f1f1;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+}
+
+.heading {
+  font-size: 2.5em;
+  color: #e6005c;
+  margin-bottom: 20px;
+}
+
+
+
+@keyframes heart-beat {
+  0% {
+      transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+      transform: translate(-50%, -50%) scale(1.1);
+  }
+}
+
+.message {
+  font-size: 1.5em;
+  color: #e6005c;
+  margin-top: 20px;
+}
+
+.surprise-button {
+  margin-top: 30px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #e6005c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.surprise-button:hover {
+  background-color: #ff0066;
+}
+
+#surprise {
+  margin-top: 30px;
+  font-size: 1.2em;
+  color: #e6005c;
+}
+
+.hidden {
+  display: none;
+}
+
+.surprise-message {
+  font-size: 1.4em;
+  color: #ff0066;
+}
